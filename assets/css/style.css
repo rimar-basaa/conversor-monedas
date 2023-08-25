@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+body {    
+    background-color: #515151;
+}
+.conversor {
+    height: 40vh;
+    color: white;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.title {
+    padding: 20px;
+}
+.card {
+    width: 250px;
+    padding: 20px;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.input {
+    width: 80%;
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    text-align: center;
+    color: black;
+}
+.btn {
+    background-color: royalblue;
+    border: 1px solid royalblue;
+    color: white;
+}
+.label {
+    width: 80%;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+}
+.grafico {
+    width: 55%;
+    min-width: 600px;    
+    margin: 0 auto;    
+}
+.chart {
+    padding: 30px;
+    border-radius: 10px;
+}
